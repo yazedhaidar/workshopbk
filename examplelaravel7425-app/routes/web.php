@@ -27,7 +27,7 @@ Route::get('register', [AdminController::class, 'register']);
 Route::post('register', [AdminController::class, 'postregister']);
 Route::get('login', [AdminController::class, 'login']);
 Route::post('login', [AdminController::class, 'postlogin']);
-Route::post('logout', [AdminController::class, 'logout']);
+Route::get('logout', [AdminController::class, 'logout']);
 
 //Route Menu Admin
 Route::middleware('checkAdmin')->group(function(){  

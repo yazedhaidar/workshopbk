@@ -56,7 +56,7 @@
                     <a href="{{url('admin/profile/'.session('admin_id')) }}" class="link-menu">Profile</a>
                 </label>
                 <label class="btn btn-secondary ">
-                    <a href="{{url('logout') }}" class="link-menu">Log Out</a>
+                    Log Out
                 </label>
            </div>
         </div>
